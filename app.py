@@ -22,6 +22,8 @@ with open('scaler.pkl', 'rb') as file:
 # Streamlit App
 st.title('Customer Churn Prediction, by Franck Binde')
 
+st.write('This is an experimental project used to practice Artifical Neural Networks with Tensorflow.')
+
 st.write('This app will help us determine whether a customer will churn, based on specific attibutes.')
 st.write('Please, input your values from the options below.')
 
